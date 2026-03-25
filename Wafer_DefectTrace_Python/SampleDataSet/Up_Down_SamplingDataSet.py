@@ -34,7 +34,6 @@ augmentor = A.Compose(
         A.Rotate(limit=180, p=0.8),  # 180도 범위 회전
         A.HorizontalFlip(p=0.5),  # 좌우 반전
         A.VerticalFlip(p=0.5),  # 상하 반전
-        A.GaussNoise(var_limit=(0.01, 0.05), p=0.3),  # 노이즈 (장비 스캔 시뮬레이션)
     ]
 )
 
