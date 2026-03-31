@@ -9,8 +9,8 @@ scikit-learn==1.5.2
 opencv-python==4.10.0.84
 albumentations==1.4.21
 
-# Deep learning (YOLOv8) - install torch separately via README
-ultralytics==8.3.0
+# Deep learning (YOLOv11) - install torch separately via README
+ultralytics>=8.4.0
 
 # ONNX
 onnx==1.17.0

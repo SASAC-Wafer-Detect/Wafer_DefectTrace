@@ -8,6 +8,8 @@
 *.bin
 *.zip
 *.png
+*.jpg
+*.csv
 
 # ── 데이터셋 폴더 ─────────────────────────────────────
 dataset/
@@ -15,6 +17,9 @@ data/
 processed_data/
 test_images/
 runs/         # YOLOv8 학습 결과 폴더
+dataset_A/
+dataset_B/
+SampleDataSet/
 
 # ── Python ───────────────────────────────────────────
 __pycache__/

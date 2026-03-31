@@ -19,7 +19,7 @@ def get_stats(wafer_map):
 
 
 base_dir = os.path.dirname(os.path.abspath(__file__))
-file_name = os.path.join(base_dir, "SampleDataSet/wafer_train_data_B.pkl")
+file_name = os.path.join(base_dir, "wafer_test_data.pkl")
 
 if not os.path.exists(file_name):
     print(f"❌ 에러: {file_name} 파일이 현재 폴더에 없습니다.")
